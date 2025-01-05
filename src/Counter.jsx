@@ -18,8 +18,9 @@ export default function Counter(){
     return(
        <div style={{border:'2px solid blue', padding:'5px', borderRadius:'5px'} }>
          <h2>Counter: {count}</h2>
-         <button onClick={handleIncrease}>Increase</button>
          <button onClick={handleDecrease}>Decrease</button>
+         <button onClick={handleIncrease}>Increase</button>
+         
        </div>
     )
 }

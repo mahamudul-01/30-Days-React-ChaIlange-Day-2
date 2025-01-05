@@ -1,6 +1,8 @@
 
 import './App.css'
 import Counter from './Counter'
+import Friends from './Friends'
+import Users from './Users'
 
 function App() {
 
@@ -21,6 +23,14 @@ function App() {
       <hr />
       <h1>Use State</h1>
       <Counter></Counter>
+
+    {/* fetch data */}
+    <hr />
+      <h1>Fetch Data using useEffect</h1>
+      <Users></Users>
+      <hr />
+      <Friends></Friends>
+
     </>
   )
 }

@@ -1,0 +1,12 @@
+.box-friends{
+    border: 2px solid tomato;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px;
+
+}
+.box-friend{
+    border: 1px solid greenyellow;
+    padding: 10px;
+    margin-top: 5px;
+}
