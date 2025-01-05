@@ -1,5 +1,6 @@
 
 import './App.css'
+import Counter from './Counter'
 
 function App() {
 
@@ -17,6 +18,9 @@ function App() {
       <br />
       {/* handle parameter event */}
       <button onClick={()=> handleButton2(5)} >Button to add 5</button>
+      <hr />
+      <h1>Use State</h1>
+      <Counter></Counter>
     </>
   )
 }
